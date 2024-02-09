@@ -1,0 +1,61 @@
+21. Suppose file 1 contains             and file 2 contains
+package media.records;                      package media.records;
+public class Labels{ . . . }                public class Length{ . . . }
+class Check { . . . }                       class Review { . . . }
+a. Are the Check class and the Review class in the same package?
+no
+b. What is the name of file 1?
+Labels.java
+c. What is the name of file 2?
+Length.java
+d. What is the name of the directory that contains the two files?
+records
+e. What is that directory a subdirectory of?
+media
+
+
+28. Describe three uses of a tree structure as a way of organizing information.
+heiarchery list
+Chess solution search
+machine learning node map
+
+29. find what the nodes and edges would represent
+trips through airline
+    node would be an airport, edge would be a specific flight
+
+countries and their borders
+    node would be the country, edge would be trade
+
+a collection of articles about data structures
+    node would be the article, edge would be references to eachother
+
+actors
+    node would be people, each edge would represent a degree of seperation to that person
+
+computers at a university
+    node would be the computer, edge would be its intranet connection to the other computers
+
+labrynth
+    node would be a decision point, edge would be NESW walls / openings
+
+the web
+    node would be websites, edge would be links to other websites from that website
+
+
+
+Assume that date1 and date2 are objects of class IncDate as deined in
+Section 1.2 “Organizing Classes.” What would be the output of the following code?
+date1 = new IncDate(5, 5, 2000);
+date2 = date1;
+System.out.println(date1);
+System.out.println(date2);
+date1.increment();
+System.out.println(date1);
+System.out.println(date2);
+
+as defined in the original file, all four print statements will output the same thing
+
+
+Write a program that declares a 10-element array of Date, uses a loop to initialize
+the elements to December 1 through 10 of 2005, and then uses another loop to print
+the contents of the array, one date per line.

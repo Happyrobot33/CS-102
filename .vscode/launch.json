@@ -1,0 +1,28 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch RecursiveBinarySearch",
+            "request": "launch",
+            "mainClass": "RecursiveBinarySearch",
+            "projectName": "CS 102_882c4585"
+        },
+        {
+            "type": "java",
+            "name": "Launch ReverseWord",
+            "request": "launch",
+            "mainClass": "ReverseWord",
+            "projectName": "CS 102_882c4585"
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        }
+    ]
+}

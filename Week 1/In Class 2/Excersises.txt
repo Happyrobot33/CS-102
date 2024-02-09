@@ -1,0 +1,52 @@
+1.1:
+3:
+*What is the difference between an object and a class*
+    An object is an instance of an existing class, with its own variables set to specific values. A class is basically a template for an object, with variables ready
+    and available to be set
+
+5:
+*According to the DaysBetween application, how many days are between 1/1/1900
+and 1/1/2000? How many leap years are there between those dates? What about
+between 1/1/2000 and 1/1/2100? Explain the difference in these answers.*
+    36524 days, 25 leap years
+    36525 days, 25 leap years
+    one day difference
+
+6:
+Use the DaysBetween application to answer the following:
+    a. How old are you, in days?
+        6915 days
+    b. How many days has it been since the United States adopted the Declaration of Independence, on July 4, 1776?
+        89865 days
+    c. How many days between the day that Jean-François Pilâtre de Rozier and
+       François Laurent became the irst human pilots, traveling 10 kilometers in a hot
+       air balloon on November 21, 1783, near Paris and the day Neil Armstrong took
+       one small step onto the moon, at the Sea of Tranquility, on July 20, 1969?
+        67811 days
+
+
+1.2:
+16: Given the deinition of the Date and IncDate classes in this chapter, and the following declarations
+    int temp;
+    Date date1 = new Date(10,2,1989);
+    IncDate date2 = new IncDate(12,25,2001);
+    indicate which of the following statements are illegal, and which are legal. Explain
+    your answers.
+    a. temp = date1.getDay();
+        Legal, method exists
+    b. temp = date2.getYear();
+        Legal, IncDate extends date, which has the method
+    c. date1.increment();
+        Illegal, does not have this function
+    d. date2.increment();
+        Legal, IncDate has this function
+
+17: Design a set of at least three classes related by inheritance from the world of
+    a. Banking—for example, account, checking account, savings account
+        Checking account and savings account inherit account
+    b. Gaming—for example, creature, hero, villain, pet
+        goblin and orc inherit creature
+    c. Travel—for example, vehicle, plane, boat
+        car, plane inherit vehicle
+    d. Whatever—use your imagination
+        a, b inherits c
